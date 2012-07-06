@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c5e8bc-63cc-4fde-976a-6f0aea74024b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/github/austincodedojo/jodd/IndexAction.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jodd-mvn-quickstart.iml" afterPath="$PROJECT_DIR$/jodd-mvn-quickstart.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jodd-mvn-quickstart.ipr" afterPath="$PROJECT_DIR$/jodd-mvn-quickstart.ipr" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/IndexAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jodd-mvn-quickstart.iws" afterPath="$PROJECT_DIR$/jodd-mvn-quickstart.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
     </list>
     <ignored path="jodd-mvn-quickstart.iws" />
@@ -87,7 +83,16 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="67" selection-end="67" vertical-scroll-proportion="-3.125">
+            <state line="5" column="18" selection-start="71" selection-end="71" vertical-scroll-proportion="-3.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="greet.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/greet.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="20" selection-start="73" selection-end="73" vertical-scroll-proportion="0.18939394">
               <folding />
             </state>
           </provider>
@@ -104,11 +109,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexAction.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GreetAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="429" selection-end="466" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/IndexAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="12" selection-start="373" selection-end="373" vertical-scroll-proportion="0.30612245">
-              <folding />
+            <state line="11" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,8 +179,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/redirect.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/IndexAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/greet.jsp" />
       </list>
     </option>
   </component>
@@ -288,32 +306,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jodd-mvn-quickstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jodd-mvn-quickstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -555,6 +547,18 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestGreeter" />
     </list>
@@ -594,7 +598,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="17" width="1618" height="865" extended-state="0" />
+    <frame x="-9" y="17" width="1618" height="865" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -749,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="67" selection-end="67" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ziroby/jodd/engine/TestGreeter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="46" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0">
@@ -765,9 +762,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="429" selection-end="466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/IndexAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="12" selection-start="373" selection-end="373" vertical-scroll-proportion="0.30612245">
+        <state line="11" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="71" selection-end="71" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/greet.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="73" selection-end="73" vertical-scroll-proportion="0.18939394">
           <folding />
         </state>
       </provider>
