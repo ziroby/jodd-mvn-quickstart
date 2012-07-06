@@ -4,6 +4,9 @@
 </head>
 <body>
 <h1>Greeting Display</h1>
-${phrase}
+<p>${phrase}</p>
+
+<p><a href="index.html">Back</a></p>
+
 </body>
 </html>

@@ -1,6 +1,8 @@
 package com.ziroby.jodd.ui;
 
 import com.ziroby.jodd.engine.Greeter;
+import com.ziroby.jodd.engine.Greeting;
+import com.ziroby.jodd.engine.GreetingDao;
 import jodd.madvoc.meta.Action;
 import jodd.madvoc.meta.In;
 import jodd.madvoc.meta.MadvocAction;
@@ -22,10 +24,19 @@ public class GreetAction {
     @PetiteInject
     private Greeter greeter;
 
+    @PetiteInject
+    private GreetingDao greetingDao;
+
     @Action
     public void view() {
         log.debug("In view() method");
 
         phrase = greeter.greet(name);
+
+        Greeting greeting = greetingDao.newGreeting();
+        greeting.setName(name);
+        greeting.setPhrase(phrase);
+
+        greetingDao.save(greeting);
     }
 }
