@@ -209,6 +209,33 @@
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
   <component name="libraryTable">
+    <library name="jodd">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../uphea/lib/jodd/jodd-joy-3.3.5-beta.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../uphea/lib/jodd/jodd-3.3.5-beta.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../uphea/lib/jodd/asm-3.2.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../uphea/lib/jodd/jodd-wot-3.3.5-beta.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="log">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../uphea/lib/log/logback-classic-1.0.0.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../uphea/lib/log/slf4j-api-1.6.4.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../uphea/lib/log/logback-core-1.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="mail">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../uphea/lib/mail/activation.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../uphea/lib/mail/mail.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="Maven: asm:asm:3.2">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/asm/asm/3.2/asm-3.2.jar!/" />

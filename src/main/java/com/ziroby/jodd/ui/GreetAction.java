@@ -1,10 +1,11 @@
 package com.ziroby.jodd.ui;
 
 import com.ziroby.jodd.engine.Greeter;
+import jodd.madvoc.meta.Action;
 import jodd.madvoc.meta.In;
 import jodd.madvoc.meta.MadvocAction;
-import jodd.madvoc.meta.Action;
 import jodd.madvoc.meta.Out;
+import jodd.petite.meta.PetiteInject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,14 +17,15 @@ public class GreetAction {
     private String name;
 
     @Out
-    private String greeting;
+    private String phrase;
+
+    @PetiteInject
+    private Greeter greeter;
 
     @Action
     public void view() {
         log.debug("In view() method");
 
-        Greeter greeter = new Greeter();
-
-        greeting = greeter.greet(name);
+        phrase = greeter.greet(name);
     }
 }

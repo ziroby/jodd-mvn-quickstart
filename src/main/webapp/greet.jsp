@@ -4,6 +4,6 @@
 </head>
 <body>
 <h1>Greeting Display</h1>
-${greeting}
+${phrase}
 </body>
 </html>

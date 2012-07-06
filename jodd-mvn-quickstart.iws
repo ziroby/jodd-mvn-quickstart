@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c5e8bc-63cc-4fde-976a-6f0aea74024b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/IndexAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jodd-mvn-quickstart.ipr" afterPath="$PROJECT_DIR$/jodd-mvn-quickstart.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jodd-mvn-quickstart.iws" afterPath="$PROJECT_DIR$/jodd-mvn-quickstart.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeter.java" afterPath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/greet.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/greet.jsp" />
     </list>
     <ignored path="jodd-mvn-quickstart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,46 +65,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <file leaf-file-name="GreetWebApplication.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetWebApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="1" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logging.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/logging.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="18" selection-start="71" selection-end="71" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="greet.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/greet.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="20" selection-start="73" selection-end="73" vertical-scroll-proportion="0.18939394">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestGreeter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ziroby/jodd/engine/TestGreeter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="46" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.31343284">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,22 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GreetAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java">
+      <file leaf-file-name="PetiteWebApplication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-sources.jar!/jodd/madvoc/petite/PetiteWebApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="429" selection-end="466" vertical-scroll-proportion="0.0">
+            <state line="12" column="13" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/IndexAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +94,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="580" selection-end="580" vertical-scroll-proportion="-5.3333335">
+            <state line="31" column="63" selection-start="1076" selection-end="1076" vertical-scroll-proportion="-10.333333">
               <folding />
             </state>
           </provider>
@@ -147,10 +103,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redirect.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/redirect.jsp">
+      <file leaf-file-name="Greeter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.875">
+            <state line="5" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Greeting.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="31" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestGreetingDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ziroby/jodd/engine/TestGreetingDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="33" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreetingDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/GreetingDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,20 +152,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/github/austincodedojo/jodd/Index.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/../jodd-quickstart/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/austincodedojo/jodd/IndexAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/IndexAction.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ziroby/jodd/engine/TestGreeter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/redirect.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/IndexAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/GreetingDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/greet.jsp" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ziroby/jodd/engine/TestGreetingDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeting.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetWebApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java" />
       </list>
     </option>
   </component>
@@ -326,6 +311,32 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jodd-mvn-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jodd-mvn-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -382,6 +393,10 @@
               <option name="myItemId" value="jodd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -390,6 +405,7 @@
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
@@ -409,8 +425,8 @@
       <recent name="com.ziroby.jodd.engine" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestGreeter">
-    <configuration default="false" name="TestGreeter" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.All tests">
+    <configuration default="false" name="All tests" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ziroby.jodd.engine.*" />
@@ -419,20 +435,21 @@
       </extension>
       <module name="jodd-mvn-quickstart" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="com.ziroby.jodd.engine" />
-      <option name="MAIN_CLASS_NAME" value="com.ziroby.jodd.engine.TestGreeter" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
       <envs />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -560,7 +577,7 @@
       </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestGreeter" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All tests" />
     </list>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -598,7 +615,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="17" width="1618" height="865" extended-state="1" />
+    <frame x="-9" y="17" width="1618" height="865" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -619,8 +636,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967742" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32902297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43870968" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -686,36 +703,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4.jar!/jodd/madvoc/MadvocServletFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.094936706" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/dev/starview/prism/trunk/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.5712075" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jodd-quickstart/src/madvoc.props">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jodd-quickstart/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="401" selection-end="401" vertical-scroll-proportion="-2.5" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="1" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/logging.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="19" selection-start="1664" selection-end="1664" vertical-scroll-proportion="-25.666666">
@@ -730,42 +717,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="580" selection-end="580" vertical-scroll-proportion="-5.3333335">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="285" selection-end="285" vertical-scroll-proportion="0.37414965">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ziroby/jodd/engine/TestGreeter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="46" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="429" selection-end="466" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,8 +744,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/greet.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="73" selection-end="73" vertical-scroll-proportion="0.18939394">
+        <state line="6" column="8" selection-start="87" selection-end="87" vertical-scroll-proportion="-3.75">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4.jar!/jodd/madvoc/WebApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-sources.jar!/jodd/madvoc/WebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.95522386">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ziroby/jodd/engine/TestGreetingDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="33" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="31" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="63" selection-start="1076" selection-end="1076" vertical-scroll-proportion="-10.333333">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-sources.jar!/jodd/madvoc/petite/PetiteWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/GreetingDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="11" selection-start="524" selection-end="524" vertical-scroll-proportion="0.53731346">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.31343284">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
