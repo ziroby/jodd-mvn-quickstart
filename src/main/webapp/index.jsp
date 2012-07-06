@@ -3,6 +3,6 @@
     <title>Jodd</title>
 </head>
 <body>
-...hello madvoc...
+    ${greeting}
 </body>
 </html>
