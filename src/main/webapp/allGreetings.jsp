@@ -19,5 +19,8 @@
     </tr>
 </j:iter>
 </table>
+
+<p><a href="index.html">Back</a></p>
+
 </body>
 </html>

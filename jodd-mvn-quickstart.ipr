@@ -19,10 +19,10 @@
             <element id="module-output" name="jodd-mvn-quickstart" />
           </element>
           <element id="directory" name="lib">
-            <element id="library" level="project" name="Maven: org.jodd:jodd-wot:3.3.4" />
+            <element id="library" level="project" name="Maven: org.jodd:jodd-wot:3.3.5-beta" />
             <element id="library" level="project" name="Maven: asm:asm:3.2" />
             <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.6" />
-            <element id="library" level="project" name="Maven: org.jodd:jodd:3.3.4" />
+            <element id="library" level="project" name="Maven: org.jodd:jodd:3.3.5-beta" />
             <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
             <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.6" />
             <element id="library" level="project" name="Maven: junit:junit:4.10" />
@@ -192,6 +192,13 @@
       </item>
     </group>
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="ziroby">
+      <words>
+        <w>ziroby</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jodd-mvn-quickstart.iml" filepath="$PROJECT_DIR$/jodd-mvn-quickstart.iml" />
@@ -313,26 +320,26 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jodd:jodd-wot:3.3.4">
+    <library name="Maven: org.jodd:jodd-wot:3.3.5-beta">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.5-beta/jodd-wot-3.3.5-beta.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.5-beta/jodd-wot-3.3.5-beta-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.5-beta/jodd-wot-3.3.5-beta-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jodd:jodd:3.3.4">
+    <library name="Maven: org.jodd:jodd:3.3.5-beta">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd/3.3.4/jodd-3.3.4.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd/3.3.5-beta/jodd-3.3.5-beta.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd/3.3.4/jodd-3.3.4-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd/3.3.5-beta/jodd-3.3.5-beta-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd/3.3.4/jodd-3.3.4-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd/3.3.5-beta/jodd-3.3.5-beta-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.slf4j:slf4j-api:1.6.6">

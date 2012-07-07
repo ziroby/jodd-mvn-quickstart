@@ -1,5 +1,7 @@
 package com.ziroby.jodd.engine;
 
+import com.ziroby.jodd.database.GreetingDao;
+import com.ziroby.jodd.engine.domain.Greeting;
 import org.junit.Test;
 
 import java.util.Collection;

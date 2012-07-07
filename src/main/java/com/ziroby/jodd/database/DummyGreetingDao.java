@@ -1,11 +1,11 @@
-package com.ziroby.jodd.engine;
+package com.ziroby.jodd.database;
 
-import jodd.petite.meta.PetiteBean;
+import com.ziroby.jodd.engine.domain.Greeting;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-@PetiteBean("greetingDao")
+//@PetiteBean("greetingDao")
 public class DummyGreetingDao implements GreetingDao {
     @Override
     public Greeting newGreeting() {

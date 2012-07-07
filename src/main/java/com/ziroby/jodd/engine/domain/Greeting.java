@@ -1,10 +1,11 @@
-package com.ziroby.jodd.engine;
+package com.ziroby.jodd.engine.domain;
 
 import jodd.db.oom.meta.DbColumn;
 import jodd.db.oom.meta.DbTable;
 
-@DbTable
-public class Greeting {
+@DbTable("greeting")
+public class Greeting extends Entity {
+
     @DbColumn
     private String name;
 

@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c5e8bc-63cc-4fde-976a-6f0aea74024b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/database/DbOomGreetingDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/domain/Entity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/app.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/DummyGreetingDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/database/DummyGreetingDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeting.java" afterPath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/domain/Greeting.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/GreetingDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/database/GreetingDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jodd-mvn-quickstart.iml" afterPath="$PROJECT_DIR$/jodd-mvn-quickstart.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jodd-mvn-quickstart.ipr" afterPath="$PROJECT_DIR$/jodd-mvn-quickstart.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jodd-mvn-quickstart.iws" afterPath="$PROJECT_DIR$/jodd-mvn-quickstart.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/AllGreetingsAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/AllGreetingsAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/greet.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/greet.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetWebApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetWebApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/allGreetings.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/allGreetings.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/ziroby/jodd/engine/TestGreetingDao.java" afterPath="$PROJECT_DIR$/src/test/java/com/ziroby/jodd/engine/TestGreetingDao.java" />
     </list>
     <ignored path="jodd-mvn-quickstart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,10 +74,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AllGreetingsAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/AllGreetingsAction.java">
+      <file leaf-file-name="DbOomGreetingDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/database/DbOomGreetingDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="54" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+            <state line="43" column="65" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1530#1540#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreetWebApplication.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetWebApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="13" selection-start="593" selection-end="593" vertical-scroll-proportion="0.48536208">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,33 +96,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="allGreetings.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/allGreetings.jsp">
+      <file leaf-file-name="DbOomQuery.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.5-beta/jodd-wot-3.3.5-beta.jar!/jodd/db/oom/DbOomQuery.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="408" selection-end="408" vertical-scroll-proportion="-11.875">
+            <state line="66" column="59" selection-start="3372" selection-end="3372" vertical-scroll-proportion="-0.08">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Greeting.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeting.java">
+      <file leaf-file-name="DbEntitySql.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.5-beta/jodd-wot-3.3.5-beta.jar!/jodd/db/oom/sqlgen/DbEntitySql.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="213" selection-end="213" vertical-scroll-proportion="0.24626866">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="42" column="50" selection-start="2338" selection-end="2338" vertical-scroll-proportion="-10.28">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GreetAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java">
+      <file leaf-file-name="DefaultResultSetMapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-sources.jar!/jodd/db/oom/mapper/DefaultResultSetMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="596" selection-end="651" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="196" column="55" selection-start="7381" selection-end="7381" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,22 +136,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/ziroby/jodd/engine/TestGreeter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/redirect.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/IndexAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetWebApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/greet.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/allGreetings.jsp" />
         <option value="$PROJECT_DIR$/src/test/java/com/ziroby/jodd/engine/TestGreetingDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/GreetingDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/DummyGreetingDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/AllGreetingsAction.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/allGreetings.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/DummyGreetingDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/DbGreetingDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/DbOomGreetingDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/database/GreetConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/allGreetings.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetWebApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/domain/Entity.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/app.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/domain/Greeting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziroby/jodd/database/DbOomGreetingDao.java" />
       </list>
     </option>
   </component>
@@ -177,23 +195,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jodd-mvn-quickstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jodd-mvn-quickstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,16 +226,22 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="jodd-mvn-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jodd-mvn-quickstart" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="engine" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,51 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jodd-mvn-quickstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jodd-mvn-quickstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jodd-mvn-quickstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jodd-mvn-quickstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,7 +327,88 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jodd-mvn-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jodd-mvn-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jodd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jodd-mvn-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jodd-mvn-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jodd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jodd-mvn-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jodd-mvn-quickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
       </pane>
     </panes>
   </component>
@@ -377,6 +421,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jodd-quickstart/src" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -387,6 +432,9 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ziroby.jodd.engine" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ziroby.jodd.engine" />
     </key>
@@ -584,7 +632,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="17" width="1618" height="865" extended-state="1" />
+    <frame x="-9" y="17" width="1618" height="865" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -599,16 +647,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43870968" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43806452" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -672,138 +720,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/IndexAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/database/DummyGreetingDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4.jar!/jodd/madvoc/WebApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.1155624">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-sources.jar!/jodd/madvoc/WebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.95522386">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="63" selection-start="1076" selection-end="1076" vertical-scroll-proportion="-10.333333">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-sources.jar!/jodd/madvoc/petite/PetiteWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/greet.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="125" selection-end="125" vertical-scroll-proportion="0.18575852">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="341" selection-end="341" vertical-scroll-proportion="0.37151703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ziroby/jodd/engine/TestGreetingDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="12" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/GreetingDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/DummyGreetingDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="74" selection-start="540" selection-end="540" vertical-scroll-proportion="0.49253732">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#481#491#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="596" selection-end="651" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="15" column="20" selection-start="424" selection-end="485" vertical-scroll-proportion="0.13867489">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/AllGreetingsAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="54" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/allGreetings.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="408" selection-end="408" vertical-scroll-proportion="-11.875">
+        <state line="12" column="13" selection-start="316" selection-end="316" vertical-scroll-proportion="0.1155624">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/engine/Greeter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="213" selection-end="213" vertical-scroll-proportion="0.24626866">
+        <state line="5" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.1119403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="84" selection-start="339" selection-end="339" vertical-scroll-proportion="0.29104477">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-sources.jar!/jodd/db/oom/sqlgen/DbEntitySql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-sources.jar!/jodd/db/oom/mapper/ResultSetMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="12" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.5522388">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun/jre/lib/rt.jar!/java/lang/Class.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0913242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-sources.jar!/jodd/db/oom/mapper/DefaultResultSetMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="55" selection-start="7381" selection-end="7381" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-sources.jar!/jodd/db/oom/DbOomManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="31" selection-start="1434" selection-end="1444" vertical-scroll-proportion="0.3322785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.4/jodd-wot-3.3.4-sources.jar!/jodd/db/oom/DbOomQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="30" selection-start="6154" selection-end="6154" vertical-scroll-proportion="0.3561644">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.5-beta/jodd-wot-3.3.5-beta.jar!/jodd/db/oom/sqlgen/DbEntitySql.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="50" selection-start="2338" selection-end="2338" vertical-scroll-proportion="-10.28">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-wot/3.3.5-beta/jodd-wot-3.3.5-beta.jar!/jodd/db/oom/DbOomQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="59" selection-start="3372" selection-end="3372" vertical-scroll-proportion="-0.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/database/DbOomGreetingDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="65" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1530#1540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziroby/jodd/ui/GreetWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="593" selection-end="593" vertical-scroll-proportion="0.48536208">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
