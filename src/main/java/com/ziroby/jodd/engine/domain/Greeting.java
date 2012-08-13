@@ -3,7 +3,7 @@ package com.ziroby.jodd.engine.domain;
 import jodd.db.oom.meta.DbColumn;
 import jodd.db.oom.meta.DbTable;
 
-@DbTable("greeting")
+@DbTable("Greeting")
 public class Greeting extends Entity {
 
     @DbColumn

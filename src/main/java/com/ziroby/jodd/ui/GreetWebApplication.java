@@ -1,6 +1,6 @@
 package com.ziroby.jodd.ui;
 
-import jodd.db.DbDefault;
+import jodd.db.DbManager;
 import jodd.db.ThreadDbSessionProvider;
 import jodd.db.connection.ConnectionProvider;
 import jodd.db.oom.DbOomManager;
@@ -50,19 +50,16 @@ public class GreetWebApplication extends PetiteWebApplication {
         cp.init();
 
         // global settings
-        DbDefault.debug = true;
-        DbDefault.connectionProvider = cp;
-        DbDefault.sessionProvider = new ThreadDbSessionProvider(true);
-
-
-        DbDefault.debug = true;
-        DbDefault.sessionProvider = new ThreadDbSessionProvider(true);
+        DbManager dbManager = DbManager.getInstance();
+        dbManager.setDebug(true);
+        dbManager.setConnectionProvider(cp);
+        dbManager.setSessionProvider(new ThreadDbSessionProvider(true));
 
         DbOomManager dbOomManager = DbOomManager.getInstance();
 
         // automatic configuration
         AutomagicDbOomConfigurator dbcfg = new AutomagicDbOomConfigurator();
-        dbcfg.setIncludedEntries("com.ziroby.*");
+        dbcfg.setIncludedEntries("com.ziroby.jodd.*");
         dbcfg.configure(dbOomManager);
     }
 

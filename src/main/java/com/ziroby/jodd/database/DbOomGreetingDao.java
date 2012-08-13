@@ -22,6 +22,7 @@ public class DbOomGreetingDao implements GreetingDao {
         Greeting greeting = new Greeting();
 
         greeting.setName(" ");
+        greeting.setId(0L);
 
         DbQuery dbQuery = DbOomQuery.query(DbEntitySql.insert(greeting));
         dbQuery.setGeneratedKey();
@@ -49,6 +50,7 @@ public class DbOomGreetingDao implements GreetingDao {
 
         List<Greeting> greetings = new ArrayList<Greeting>();
         for (Object greeting : result ) {
+            log.debug("result: " + greeting);
             greetings.add((Greeting) greeting);
         }
 

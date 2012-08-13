@@ -6,6 +6,7 @@ public abstract class Entity {
 
     @DbId
     protected Long id;
+
     public Long getId() {
         return id;
     }
