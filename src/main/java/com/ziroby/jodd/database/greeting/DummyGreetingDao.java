@@ -1,4 +1,4 @@
-package com.ziroby.jodd.database;
+package com.ziroby.jodd.database.greeting;
 
 import com.ziroby.jodd.engine.domain.Greeting;
 

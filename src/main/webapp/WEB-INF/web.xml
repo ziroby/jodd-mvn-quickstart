@@ -21,7 +21,7 @@
         <filter-class>jodd.madvoc.MadvocServletFilter</filter-class>
         <init-param>
             <param-name>madvoc.webapp</param-name>
-            <param-value>com.ziroby.jodd.ui.GreetWebApplication </param-value>
+            <param-value>com.ziroby.jodd.ui.PoliticsWebApplication</param-value>
         </init-param>
     </filter>
     <filter-mapping>
@@ -29,7 +29,4 @@
         <url-pattern>/*</url-pattern>
         <dispatcher>REQUEST</dispatcher>
     </filter-mapping>
-
-
-
 </web-app>

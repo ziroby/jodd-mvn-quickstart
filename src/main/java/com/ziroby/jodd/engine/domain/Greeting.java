@@ -3,6 +3,13 @@ package com.ziroby.jodd.engine.domain;
 import jodd.db.oom.meta.DbColumn;
 import jodd.db.oom.meta.DbTable;
 
+/*
+create table jodd_test.Greeting (
+    ID int not null primary key AUTO_INCREMENT,
+    NAME varchar(80) ,
+    PHRASE varchar(80)
+);
+ */
 @DbTable("Greeting")
 public class Greeting extends Entity {
 

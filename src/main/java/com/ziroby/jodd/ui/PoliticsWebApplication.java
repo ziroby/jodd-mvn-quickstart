@@ -19,7 +19,7 @@ import jodd.props.PropsUtil;
  * Time: 9:11 AM
  * To change this template use File | Settings | File Templates.
  */
-public class GreetWebApplication extends PetiteWebApplication {
+public class PoliticsWebApplication extends PetiteWebApplication {
     private Log log = Log.getLogger(WebApplication.class);
 
     @Override

@@ -1,8 +1,8 @@
-package com.ziroby.jodd.ui;
+package com.ziroby.jodd.ui.greeting;
 
 import com.ziroby.jodd.engine.Greeter;
 import com.ziroby.jodd.engine.domain.Greeting;
-import com.ziroby.jodd.database.GreetingDao;
+import com.ziroby.jodd.database.greeting.GreetingDao;
 import jodd.madvoc.meta.Action;
 import jodd.madvoc.meta.In;
 import jodd.madvoc.meta.MadvocAction;
